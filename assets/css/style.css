@@ -1,0 +1,258 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica;
+	color: #212121;
+}
+
+.container {
+	margin: 0 auto;
+	width: 433px;
+	height: 875px;
+	background-image: url('../img/iphone.png');
+	background-position: top left;
+	position: relative;
+}
+
+#header {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	top: 105px;
+	font-size: 13px;
+	line-height: 16px;
+	overflow: hidden;
+	padding: 0 37px;
+	box-sizing: border-box;
+	z-index: 1;
+}
+
+#header .carrier {
+	width: 163px;
+	float: left;
+}
+
+#header .time {
+	width: 33px;
+	float: left;
+	text-align: center;
+}
+
+#header .battery {
+	width: 163px;
+	float: left;
+	text-align: right;
+}
+
+#footer {
+	position: absolute;
+	left: 0;
+	bottom: 114px;
+	width: 100%;
+	padding: 0 37px;
+	box-sizing: border-box;
+	font-size: 20px;
+	z-index: 1;
+}
+
+#footer .col {
+	width: 20%;
+	float: left;
+	text-align: center;
+	color: #212121;
+	text-decoration: none;
+}
+
+#footer .col.active {
+	color: #5680ff;
+}
+
+#footer .col span {
+	display: block;
+	font-size: 13px;
+}
+
+#caller {
+	position: relative;
+	top: 150px;
+	overflow: hidden;
+	padding: 0 37px;
+	box-sizing: border-box;
+}
+
+.btn-holder,
+.call-holder {
+	width: 33.33%;
+	float: left;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.btn-holder button,
+.call-holder button {
+	width: 70px;
+	height: 70px;
+	border: 1px solid #000;
+	border-radius: 50%;
+	margin: 0 auto;
+	display: block;
+	font-size: 35px;
+	line-height: 35px;
+	padding: 0;
+	outline: none;
+}
+
+.btn-holder button:active {
+	background: #a0d8ff;
+}
+
+.btn-holder button span,
+.call-holder button span {
+	font-size: 13px;
+	line-height: 13px;
+	display: block;
+	letter-spacing: 1px;
+}
+
+.call-holder {
+	margin-left: 33.33%;
+}
+
+#call {
+	color: white;
+	border: none;
+	background-color: #47f547;
+}
+
+.asterisk {
+	line-height: 80px !important;
+}
+
+.writer {
+	width: 100%;
+	float: left;
+	margin-bottom: 50px;
+}
+
+.writer button {
+	width: 15%;
+	height: 40px;
+	padding: 0;
+	text-align: center;
+	border: none;
+	border-radius: 0;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	color: #5680ff;
+	font-size: 18px;
+	outline: none;
+	float: left;
+	display: none;
+}
+
+.writer #input {
+	border: none;
+	padding: 0;
+	border-radius: 0;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	outline: none;
+	width: 70%;
+	float: left;
+	height: 40px;
+	font-size: 35px;
+	line-height: 40px;
+	overflow: hidden;
+	text-align: center;
+}
+
+#voicemail,
+#favorites {
+	position: relative;
+	top: 104px;
+}
+
+h1.title {
+	border-bottom: 1px solid #212121;
+	padding-top: 60px;
+	padding-left: 15px;
+	padding-bottom: 10px;
+	margin: 0 30px;
+	font-size: 35px;
+	background-color: #f2f2f2;
+}
+
+#voicemail .call {
+	padding: 5px 10px;
+	color: #212121;
+	border: 1px solid #212121;
+	border-radius: 3px;
+	outline: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	margin: 240px auto;
+	display: block;
+}
+
+.contacts-list {
+	margin-left: 15px;
+	list-style-type: none;
+	padding-left: 60px;
+	margin: 0 30px;
+	overflow: hidden;
+	max-height: 500px;
+	overflow-y: auto;
+}
+
+.contacts-list li {
+	padding: 10px 15px 10px 0;
+	box-sizing: border-box;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    float: left;
+}
+
+.contacts-list img {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	float: left;
+	margin-left: -50px;
+}
+
+.contacts-list .details {
+	font-size: 15px;
+	float: left;
+	color: #ccc;
+}
+
+.contacts-list .details b {
+	font-size: 18px;
+	display: block;
+	color: #212121;
+	padding-top: 2px;
+}
+
+.contacts-list .details svg {
+	height: 12px;
+	vertical-align: inherit;
+	transform: rotateY(180deg);
+}
+
+.info {
+	float: right;
+	font-size: 20px;
+	color: #5680ff;
+	margin-top: 9px;
+}
+
+.info span {
+	color: #ccc;
+	font-size: 15px;
+	margin-right: 10px;
+	vertical-align: text-top;
+}
